@@ -38,6 +38,8 @@ body {
 
 .header-tel {
   margin-right: 25px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .header-email {
@@ -56,6 +58,7 @@ body {
 }
 
 h2 {
+  text-align: center;
   margin: 40px;
   color: #ff880d;
   font-size: 55px;
@@ -78,6 +81,11 @@ h2 {
 
 .text2 {
   color: #fff;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
