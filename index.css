@@ -51,8 +51,44 @@ body {
   text-decoration: none;
 }
 
+.website {
+  display: flex;
+  position: relative;
+}
+
+.earth {
+  width: 25px;
+  margin-right: 10px;
+  position: absolute;
+  left: -35px;
+  top: -2px;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone-icon {
+  width: 15px;
+  margin-right: 5px;
+}
+
 .header-tel {
   margin-right: 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.email {
+  display: flex;
+}
+
+.email-icon {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.header-email {
   text-decoration: none;
   color: #fff;
 }
