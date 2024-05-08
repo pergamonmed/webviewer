@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -36,14 +44,17 @@ body {
   align-items: center;
 }
 
+.header-website {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
 .header-tel {
   margin-right: 25px;
   text-decoration: none;
   color: #fff;
-}
-
-.header-email {
-  text-transform: uppercase;
 }
 
 .main-content {
@@ -61,7 +72,8 @@ h2 {
   text-align: center;
   margin: 40px;
   color: #ff880d;
-  font-size: 55px;
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .choose {
